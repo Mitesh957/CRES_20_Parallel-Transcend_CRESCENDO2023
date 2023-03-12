@@ -15,7 +15,7 @@
             $data = $stmt_result->fetch_assoc();
             if($data['Password']===$Password){
                 echo "<h2>Login Successful</h2>";
-                echo "<a href='quiz.html'>Continue</a>"; // added echo and changed quotes
+                echo "<a href='dashboard.html'>Continue</a>"; // added echo and changed quotes
             } else{
                 echo "<h2>Invalid Username or Password</h2>";
             } 
